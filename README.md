@@ -39,10 +39,10 @@ Data Lake    Warehouse
 |-------|------------|
 | Message broker | Apache Kafka 3.7.1 |
 | Stream processing | Apache Spark 3.5.3 (PySpark) |
-| Data lake | Parquet files (local HDFS-style storage) |
-| Data warehouse | MySQL 8.0 |
+| Data lake | Parquet files (local filesystem) |
+| Data warehouse | MySQL 8.4.8 |
 | API integration | ExchangeRate API (REST) |
-| Pipeline automation | Python, kafka-python, requests |
+| Python libraries | Python, kafka-python, requests |
 | Environment | Ubuntu (WSL), Java 17 |
 | Version control | Git, GitHub |
 | CI/CD | GitHub Actions |
@@ -98,9 +98,9 @@ Raw individual exchange rate readings stored as-is:
 
 ### Prerequisites
 - Ubuntu / WSL with Java 17
-- Python 3.x
+- Python 3.14.4
 - Apache Kafka 3.7.1
-- MySQL 8.0
+- MySQL 8.4.8
 
 ### Installation
 
